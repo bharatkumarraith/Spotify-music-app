@@ -1,0 +1,100 @@
+<!-- <p>register works!</p> -->
+
+<div class="container1"  id ="border">
+
+    <form [formGroup]="regform" >
+      <div class="example-container">
+                <p id="pag">sign up for free and start listening!</p>
+            </div>
+        <!-- user_name -->
+        <div class="one">
+        <div>
+            <mat-form-field>
+              
+              <input matInput class="input" placeholder="username*" formControlName="user_name">
+              <mat-error *ngIf="user_nameValidate?.touched && user_nameValidate?.invalid">
+                <!-- userName is get method writen in ts file or we can directly write  "regform.get('userName')-->
+                <span *ngIf="user_nameValidate?.errors?.['required']">
+                  UserName is required
+                       
+                </span>
+            
+              </mat-error>
+            </mat-form-field>
+            </div>
+    
+        </div>
+    
+    
+          <!-- email -->
+          <div >
+            <mat-form-field class="increaseSize">
+                <input  matInput placeholder="Email*" formControlName="email">
+                <mat-error *ngIf="emailValidator?.touched && emailValidator?.invalid">
+    
+                    <span *ngIf="emailValidator?.errors?.['required']">
+                        Email is Required
+                    </span>
+                     <span *ngIf="emailValidator?.errors?.['pattern']">
+                      Inavlid Pattern
+                     </span>
+    
+                </mat-error>
+            </mat-form-field>
+          </div>
+    
+    
+          <!-- password -->
+          <div class="one">
+          <div>
+            <mat-form-field>
+                <input matInput placeholder="Password*" formControlName="password">
+                
+                <mat-error *ngIf="passwordValidator?.invalid">
+                   <span *ngIf="passwordValidator?.errors?.['pattern']">
+                        pass has min 8,up&low case letter
+                         asymb & num
+                   </span >
+    
+                   
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <br>
+
+             <!-- Address -->
+             <div>
+              
+              <mat-form-field>
+              <input matInput placeholder="Address" formControlName="address">
+              <mat-error *ngIf="addressValidator?.touched && addressValidator?.invalid">
+                <span *ngIf="addressValidator?.errors?.['required']">
+                  Address is required
+                </span>
+              </mat-error>
+          </mat-form-field>
+          </div>
+
+            <p id="log">     Have an account Already? <a routerLink="/login">login</a> </p>
+            <div class="example-label" id="save">
+            <!-- <p id="log">Have an account Already? <a routerLink="/login">login</a></p> -->
+            <button mat-raised-button color="primary" type="submit" [disabled]="!regform.valid"(click)="afterSubmit()">
+                <mat-icon>save</mat-icon>
+            </button>
+          </div>
+          </div>
+    
+             <div class="example-label">
+           
+            <button mat-raised-button color="primary" (click)="restForm()">Reset</button>&nbsp;
+    
+            <span class="con3" >
+            <button   mat-raised-button [disabled]="!regform.valid "(click)="afterSubmit()" >Submit</button>       
+            </span>
+    
+          </div>
+    
+          
+    </form>
+    
+    </div>

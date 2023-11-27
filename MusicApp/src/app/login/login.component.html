@@ -1,0 +1,30 @@
+<!-- <p>login works!</p> -->
+
+<div class="cont">
+    <h1>To Continue, login to Spotify</h1>
+    <div id="login">
+            <form >
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Email" #userEmail="ngModel" name="email" [(ngModel)]="login.email" required>
+                    <mat-error *ngIf="userEmail.invalid && userEmail.touched"> 
+                        <span *ngIf="userEmail.errors?.['required']"> 
+                            Email is required
+                        </span>
+                    </mat-error>
+                </mat-form-field>
+    
+                <mat-form-field>
+                    <mat-label>Password</mat-label>
+                    <input matInput placeholder="Password" #usersPassword="ngModel" type="password" required name="password" [(ngModel)]="login.password" >
+                    <mat-error *ngIf="usersPassword.invalid && usersPassword.touched">
+                        <span *ngIf="usersPassword.errors?.['required']">
+                            Password is Required
+                        </span>
+                    </mat-error>
+                </mat-form-field>
+                <br>
+                <button mat-raised-button color="primary" type="button" (click)="submit1()">Login</button>
+            </form>
+    </div>
+    

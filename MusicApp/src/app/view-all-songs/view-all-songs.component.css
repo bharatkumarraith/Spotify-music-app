@@ -1,0 +1,157 @@
+
+  /* .music-box{
+
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    display: inline;
+    position:relative;
+    padding: 20px;
+    margin-top: 10px;
+    left: 350px;
+    bottom: 600px;
+  }
+  #pp1{
+    margin: 18px 40px;
+    display: flex;
+  }
+  #pp2{
+    margin: 20px 70px;
+    display: flex;
+  } */
+
+
+
+  /* .example-card {
+    max-width: 340px;
+   
+  } */
+  /* .six{
+    border: 2px solid white;
+    max-width: 200px;
+    border-color:whitesmoke;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    border-radius: 16%  ;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px;
+    margin-left: 120px; */
+    /* left: 350px; 
+    
+    bottom: 600px;  */
+  /* grid-template-columns: repeat(auto,3);
+    position:relative;
+  
+    height: 150px; */
+   /* padding: 10px; */
+   /* padding-top: 10px; */
+   /* margin: auto; */
+   /* margin-left: 40px; */
+   /* font-family: 'Times New Roman', Times, serif; */
+   /* display:inline-block;  
+  } */
+
+
+  /* .music-box{
+
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    display: inline;
+    position:relative;
+    padding: 20px;
+    margin-top: 10px;
+    left: 350px;
+    bottom: 600px;
+   grid-template-columns: repeat(auto,3);
+  } */
+  /* #pp1{
+    margin: 18px 40px;
+  }
+  #pp2{
+    margin: 20px 70px;
+  } */
+
+  /* .card{
+    display: flex;
+    grid-template-columns: repeat(auto,3);
+  } */
+
+  /* .six{ */
+    /* border: 2px solid white; */
+    /* width: 250px; */
+    /* border-color: white; */
+   
+    /* background-color:crimson; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px; */
+    /* margin-top: 50%; */
+    /* border-radius: 16%  ; */
+    /* margin: 20px; */
+    /* box-shadow: 2px 2px 2px 2px; */
+   /* position: relative;
+   bottom: 20px; */
+   /* margin-left: 150px; */
+   /* margin: 30% auto 20%;
+  } */
+  /* .music-box1card{
+    border: 2px solid black;
+    width: 220px;
+    margin-left: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  img{
+    width: 210px;
+    height: 170px;
+    margin-left: 4.5px;
+  } */
+  /* .two{
+    margin-top:-2px;
+    height:300px;
+    width:300px;
+    position: relative;
+    border-radius: 20%;
+  } */
+  /* .six a{
+    color: white;
+    text-decoration: none;
+    
+  } */
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+img:hover{
+    transform: scale(1.06);
+    transition: 0.7s;
+}
+.main{
+    color: white;
+    width: 65%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+.cont{
+  margin: auto;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background:rgb(25, 23, 23);
+  position: relative;
+}
+.cont:hover{
+  background: rgb(38, 38, 38);
+}
+p{
+  text-align: center;
+}

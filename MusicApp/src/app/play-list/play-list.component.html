@@ -1,0 +1,50 @@
+
+
+
+
+
+<div class="card">
+
+  <div class="formdis">
+    <form (ngSubmit)="submitPlaylist()" [formGroup]="addPlaylist">
+      <span></span>
+      <p>Create your own play-list its works!</p><br>
+      <mat-form-field>
+        <mat-label>PlayList Name</mat-label>
+        <input matInput type="text" formControlName="playlistName">
+        <mat-error *ngIf="playlistNameValidate?.errors?.['required']">
+          PlaylistName is required..
+        </mat-error>
+      </mat-form-field>
+      <!-- <div formArrayName="TrackList" id="dis">
+      <div formGroupName=0> -->
+      <!-- <mat-form-field>
+          <mat-label>Enter playlist Id</mat-label>
+          <input matInput type="number" formControlName="playlistId">
+          <mat-error *ngIf="playlistIdValidate?.errors?.['required']">
+            playlist Id is required..
+            </mat-error>
+        </mat-form-field> -->
+      <!-- <br> -->
+      <!-- <mat-form-field>
+          <mat-label>Enter Artist Name</mat-label>
+          <input matInput type="text" formControlName="artistName">
+           <mat-error *ngIf="artistName?.errors?.['required']">
+              Artist required!!!
+            </mat-error> -->
+      <!-- </mat-form-field> -->
+      <!-- <br> -->
+      <!-- <mat-form-field>
+          <mat-label>Genres</mat-label>
+          <input matInput type="text" formControlName="genres">
+        </mat-form-field> -->
+      <!-- </div>
+    </div> -->
+      <br>
+      <!-- [disabled]="!addPlaylist.valid" -->
+      <button mat-raised-button color="primary" type="submit" [disabled]="!addPlaylist.valid">Add</button>
+      <button mat-raised-button id="reset" type="reset" color="primary" (click)="resetForm()">Reset</button>
+    </form>
+  </div>
+
+</div>

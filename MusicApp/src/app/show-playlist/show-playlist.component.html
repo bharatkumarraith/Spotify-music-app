@@ -1,0 +1,28 @@
+
+
+
+
+   <div id="main">
+    
+    <div *ngFor="let playlist of playlistAvail" class="playlist-card">
+      <div id="plyName">
+        <p>{{ playlist.playlistName }}</p>
+        <div *ngIf="playlist.showTrackDetails" class="track-details">
+          <ul>
+            <li *ngFor="let track of playlist.trackDetails">
+              <p>Artist: {{ track.artistName }}</p>
+              <p>Song Name: {{ track.songName }}</p>
+              <p>Rating: {{ track.rating }}</p>
+            </li>
+          </ul>
+        </div>
+        <button mat-raised-button color="accent" (click)="shows(playlist)">
+          {{ playlist.showTrackDetails ? 'Hide' : 'Show' }} <!-- Toggle button label -->
+        </button>
+        <button (click)="deletePlaylists(playlist.playlistName)" mat-raised-button color="accent" >
+            delete
+        </button>
+      </div>
+    </div>
+  </div>
+  <a id="bu" routerLink="/show-songs"><button mat-raised-button color="warn">back to palylist</button></a>

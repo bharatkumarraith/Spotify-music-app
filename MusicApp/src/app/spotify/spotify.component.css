@@ -1,0 +1,58 @@
+.title1{
+margin-left: 20PX;
+width: 50px;
+margin: 20px;
+height: 50px;
+border: 2px, solid black;
+border-radius: 16%  ;
+padding: 20px;
+text-decoration: none;
+/* bottom: 6000px; */
+display:flexbox;
+/* margin-top: 500px; */
+
+top: 20%;
+/* position: absolute; */
+box-shadow: 2px 2px 6px blue;
+background-color: burlywood;
+color:brown;
+}
+.title2{
+    width: 50px;
+    height: 50px;
+    border: 2px, solid black;
+    border-radius: 16%  ;
+    margin-right: 300PX;
+    /* box-shadow: 2px 2px 6px orangered; */
+    box-shadow: rgb(0,0,0,0.24) 0px 3px 8px;
+    padding: 20px;
+    text-decoration: none;
+    bottom: 100px;
+    background-color:darkgray;
+    color:black;
+    }
+    p{
+        font-size: larger;
+        font-weight: 500;
+        
+        /* padding: 10px; */
+        color:rgb(158, 170, 140);
+        /* text-shadow: 3px 2px red; */
+        text-shadow: rgba(54, 219, 104, 0.24) 10px 3px 8px;
+        position: absolute;
+        margin-left: 2%;
+        bottom: 380px;
+        font-size:300%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .one{
+       position: relative;
+       bottom: 150px;
+       margin-left: 100px;
+    }
+    .title{
+    
+        position: relative;
+        bottom: -24px;
+        /* height: 80px; */
+    }

@@ -1,0 +1,22 @@
+<div class="card">
+
+    <div class="formdis">
+      <form (ngSubmit)="creatingPlaylist1()" [formGroup]="addPlaylist">
+        <span></span>
+        <p>Create your own play-list its works!</p><br>
+        <mat-form-field>
+          <mat-label>PlayList Name</mat-label>
+          <input matInput type="text" formControlName="playlistName">
+          <mat-error *ngIf="playlistNameValidate?.errors?.['required']">
+            PlaylistName is required..
+          </mat-error>
+        </mat-form-field>
+     
+        <br>
+     
+        <button mat-raised-button color="primary" type="submit" [disabled]="!addPlaylist.valid">Add</button>
+        <button mat-raised-button id="reset" type="reset" color="primary" (click)="resetForm()">Reset</button>
+      </form>
+    </div>
+  
+  </div>

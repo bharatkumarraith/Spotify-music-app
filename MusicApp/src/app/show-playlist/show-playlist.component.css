@@ -1,0 +1,37 @@
+.playlist-card {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .track-details {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  #main{
+    position: relative;
+    bottom: -100px;
+    right: -30px;
+    width: 1300px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+  }
+  
+  button{
+    margin: 5px;
+  }
+
+  #bu{
+    position: relative;
+    right: -1350px;
+    top:-730px;
+  }

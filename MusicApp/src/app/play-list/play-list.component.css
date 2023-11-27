@@ -1,0 +1,118 @@
+.card{
+  position: absolute;
+  top:200px;
+  left: 600px;
+  border: none;
+}
+
+.formdis{    
+    /* margin-top: 20px; */
+    /* margin: 9.8% 650px; */
+    /* display: flex;
+    justify-content: center; */
+    width: 350px;
+    margin-right: 580px;
+    position: relative;
+    border: 2px solid black;
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    /* left: 500px; */
+    background:linear-gradient(to right,  rgb(109, 188, 198),#bedf8e);
+    /* margin-bottom: 200px; */
+    
+}
+span{
+    margin-top: 500px;
+}
+/* .example-label
+  {
+    margin:15px 25%;
+    width: 50%;
+  } */
+
+  /* .container1{   */
+    /* margin-top: 20px; */
+    /*display: flex;  */
+   /* justify-content: center; */
+   /* background:linear-gradient(to right,  rgb(211, 248, 30),rgb(58, 245, 123));  */
+    /* margin:5% auto; */
+  /* } */
+
+  mat-form-field{
+    margin:0px 21%;
+    /* width: 70%; */
+}
+
+form{
+    position: fixed;
+}
+
+button{
+    bottom: 0;
+    left:31%;
+    /* padding: 10px; */
+}
+#reset{
+    margin-left: 5%;
+}
+#position{
+    margin-top: -80px;
+}
+#main_Cont{
+ width: 14%;
+ background-color: rgb(24, 24, 25);
+ margin: auto;
+ text-align: center;
+ padding: 17px;
+ position: fixed;
+ right: 0;
+ top: 80px;
+}
+
+#cont{
+    width: 90%;
+    background-color: rgb(57, 185, 112);
+    border-radius: 8px;
+    margin: auto;
+}
+span{
+    color: rgb(251, 248, 248);
+    font-weight: 600;
+}
+
+p{
+    color:rgb(241, 29, 6);
+    font-weight:bolder;
+    line-height: 0px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    /* font-size:smaller; */
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color: hotpink; */
+}
+#p{
+    color: white;
+}
+span{
+    color: black;
+}
+
+#dis{
+    display: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+

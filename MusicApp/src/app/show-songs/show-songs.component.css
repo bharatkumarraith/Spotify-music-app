@@ -1,0 +1,140 @@
+.example-spacer {
+  position:sticky;
+    flex: 1 1 auto;
+  
+  }
+  .title{
+    font-family: cursive;
+    font-size:20px;
+    font-weight: 700;
+    color: yellow;
+    margin-left: 3%;
+    text-decoration: none;
+}
+mat-toolbar{
+  color:rgb(255, 255, 255);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  
+  background-color: black;
+}
+
+.rightNav{
+  height:100%;
+  width: 14%;
+  background-color: rgb(38, 37, 37);
+  position:fixed;
+  top: 10;
+  right: 0;
+  
+}
+.rightNav a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.sidenav{
+  top: 9%;
+  height:91%;
+  width: 17%;
+  background-color: rgb(0,0,0); 
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  position: fixed;
+  flex-direction: column-reverse;
+  justify-content: center;
+  overflow: none;
+}
+#playlist{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  background:rgb(127, 75, 173);
+  height: 50px;
+  border-radius: 10px;
+}
+
+#playlist a{
+  line-height: 50px;
+  margin-left: 10%;
+  padding: 20px 30px;
+}
+
+#showSong{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  background:rgb(127, 75, 173);
+  height: 50px;
+  border-radius: 10px;
+   /* song-in-playlist{} */
+}
+ 
+#showSong a{
+  line-height: 50px;
+  margin-left: 10%;
+  padding: 20px 30px;
+  /* song-in-playlist */
+} 
+ 
+.sidenav a{
+  color: white;
+  text-decoration: none;
+  
+} 
+ .sidenav p{
+  /* top: 100px; */
+  margin: 30%;
+  background-color: red;
+  font-size: 40px;
+  /* width: 700px;
+  height: 100px; */
+} 
+
+.rightNav123{
+  height:100%;
+  width: 14%;
+  /* background-color: rgb(38, 37, 37); */
+  position:fixed;
+  /* display: flex; */
+  top: 10;
+  right: 0;
+}
+.rightNav123 a{
+  color: white;
+  text-decoration: none;
+}
+
+#playlist123{
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  background:rgb(127, 75, 173);
+  height: 50px;
+  border-radius: 10px;
+} 
+
+ #playlist123 a{
+  line-height: 50px;
+  margin-left: 10%;
+  padding: 20px 30px;
+} 
+
+.cont{
+  /* display: flex; */
+  padding:40px;
+  display:grid;
+  grid-template-columns: repeat(3,auto);
+  margin-left: 250px;
+  /* padding: -20px;
+   */
+}
+button{
+  float: right;
+}
+.one{
+margin-left: 1450px;
+position:absolute;
+top: -10px;
+}

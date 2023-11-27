@@ -1,0 +1,37 @@
+
+
+<div class="sidenav">
+  <button class="one" (click)="logout()" mat-fab color="accent" aria-label="Example icon button with a bookmark icon"> 
+
+    <span  class="material-symbols-outlined">
+      logout
+  
+      </span>
+  </button>
+  
+    <div>
+    <!-- <p>{{userName|json}}</p> -->
+  </div>
+    <div id="playlist">
+      <a routerLink="/create-playlist">Create Playlist</a> 
+    </div>
+
+<div id="playlist123">
+      <a routerLink="/show-playlist">Show Playlist</a> 
+</div>
+  </div>
+  
+  <!-- <div class="cont">
+    <div *ngFor="let play of song ">
+      <app-view-all-songs [mySongs]="play"></app-view-all-songs>
+  </div>
+ 
+  </div> -->
+
+  <div class="cont">
+    <div >
+      <app-view-all-songs ></app-view-all-songs>
+  </div>
+ 
+  </div>
+  

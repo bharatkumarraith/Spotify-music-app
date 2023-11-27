@@ -1,0 +1,25 @@
+<!-- <p>view-all-songs works!</p> -->
+<!-- <mat-card class="example-card"> -->
+    
+        <div class="main" >
+           
+            <div class="cont" *ngFor="let song of songs">
+                <img class=two src="https://i.pinimg.com/originals/4c/68/3c/4c683c0460d0f37c20ba2a708bf5f999.jpg" alt="">
+                <p id="pp1" >{{song.songName}}</p>
+                <p id="pp2">{{song.artistName}}</p>
+                <p id="pp2">{{song.rating}}</p>
+                <button mat-raised-button color="primary" 
+                                        (click)="songPlay(song.songName)" >Play</button>&nbsp;
+                <button class="one" style="text-decoration: none;" mat-raised-button color="warn" (click)="addSongToPlaylist1(song)">add</button>
+            </div>
+        </div>
+    <!-- </div><a routerLink="/song-in-playlist">Add</a> -->
+    
+<!-- </mat-card>  -->
+
+<form [formGroup]="addproductform" (ngSubmit)="Addproduct()">
+    songName<input type="text" formControlName="songName"/>
+    artistName<input type="text" formControlName="artistName"/>
+    Rating<input type="text" formControlName="rating"/>
+    <input type="submit" value="addsong">
+</form>
