@@ -1,9 +1,0 @@
-com\example\domain\UserDetails.class
-com\example\domain\UserDetailsDTO.class
-com\example\service\TrackService.class
-com\example\repo\TrackRepo.class
-com\example\domain\PlaylistDetails.class
-com\example\controller\TrackController.class
-com\example\domain\TrackDetails.class
-com\example\filter\JwtFilter.class
-com\example\proxy\JwtProxy.class
