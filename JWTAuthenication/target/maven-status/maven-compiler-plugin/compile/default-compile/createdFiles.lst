@@ -1,0 +1,7 @@
+com\example\controllerAuthentication\UserControllerAuthentication.class
+com\example\domain\UserDetails.class
+com\example\service\SecurityTokenGenerator.class
+com\example\service\UserDetailsService.class
+com\example\JwtAuthenicationApplication.class
+com\example\service\SecurityTokenGeneratorImpl.class
+com\example\repo\UserDetailsRepo.class
